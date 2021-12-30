@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Nextjs examples",
   "scripts": {
+    "start": "next dev", 
     "start:api-server": "cd api-server && npm run mock-server",
     "postinstall": "cd ./api-server && npm install",
     "clean": "rimraf .next"
