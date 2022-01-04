@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import { CarListComponet } from '../components';
 
 const CarListPage = () => {
   const router = useRouter();
@@ -15,10 +16,7 @@ const CarListPage = () => {
         <title>Rent a car - Car list</title>
       </Head>
       <h2>Car list page</h2>
-      <ul>
-        <li>Audi Q8</li>
-        <li>BMW X7</li>
-      </ul>
+      <CarListComponet />
       <button onClick={onNavigateBack}>Navigate to home</button>
     </>
   );
