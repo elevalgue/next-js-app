@@ -1,1 +1,1 @@
-# next-js-app
+# nextjs app
