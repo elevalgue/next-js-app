@@ -1,3 +1,1 @@
-# nextjs app
-
-Under construction 🚧
+# Under construction 🚧
